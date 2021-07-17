@@ -1,0 +1,33 @@
+@import "../../assets/styles/setup/variables";
+@import "../../assets/styles/setup/functions";
+
+.contact {
+    background-color: #252934;
+    color: $clr5;
+    
+    h1 {
+        padding-top: rem(40px);
+    }
+
+    p {
+        font-size: rem(20px);
+    }
+
+    form {
+        max-width: 500px;
+        margin: auto;
+
+        > *:not(button) {
+            padding: rem(10px) rem(15px);
+            margin-bottom: rem(3px);
+            background-color: $clr4;
+            color: $clr5;
+            border: 0;
+        }
+
+        button {
+            width: rem(150px);
+            margin: rem(20px) auto rem(50px);
+        }
+    }
+}

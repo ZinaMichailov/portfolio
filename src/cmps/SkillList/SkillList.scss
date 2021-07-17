@@ -1,0 +1,15 @@
+@import "../../assets/styles/setup/variables";
+@import "../../assets/styles/setup/functions";
+@import "../../assets/styles/setup/mixins";
+
+.skill-list {
+    max-width: rem(600px);
+    grid-template-columns: repeat(auto-fit, minmax(rem(70px), 1fr));
+	gap: rem(25px) rem(16px);
+    margin-block-end: rem(50px);
+
+    @include for-mobile-layout {
+        grid-template-columns: repeat(auto-fit, minmax(rem(50px), 1fr));
+        gap: rem(20px) rem(14px);
+    }
+}

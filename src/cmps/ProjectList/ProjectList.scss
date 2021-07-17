@@ -1,0 +1,81 @@
+@import "../../assets/styles/setup/variables";
+@import "../../assets/styles/setup/functions";
+@import "../../assets/styles/setup/mixins";
+
+.project-list {
+	padding-block-end: rem(100px);
+	padding-block-start: rem(80px);
+	background-color: #f5f5f5;
+
+	.list {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.project-preview {
+		position: relative;
+		width: 390px;
+		height: 300px;
+
+		img {
+			object-fit: cover;
+			width: 390px;
+			height: 300px;
+		}
+
+		h2 {
+			font-weight: bold;
+		}
+
+		p {
+			color: $clr1;
+			margin-bottom: rem(50px);
+		}
+
+		&:hover .overlay {
+			opacity: 1;
+		}
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 100%;
+			width: 100%;
+			opacity: 0;
+			transition: 0.5s ease;
+			background-color: #f5f5f5;
+			padding: rem(5px);
+		}
+
+		.more-btn {
+			color: inherit;
+			border: solid 3px $clr1;
+			background-color: inherit;
+			padding: rem(12px) rem(30px);
+
+			&:hover {
+				color: $clr5;
+				border-color: $clr5;
+				background-color: $clr1;
+			}
+		}
+	}
+
+	@include for-mobile-layout {
+		padding-block-end: rem(80px);
+		padding-block-start: rem(50px);
+
+		.project-preview {
+			width: 280px;
+			height: 240px;
+
+			img {
+				width: 280px;
+				height: 240px;
+			}
+		}
+	}
+}

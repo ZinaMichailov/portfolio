@@ -1,0 +1,100 @@
+
+.site-block {
+    margin-bottom: rem(20px);
+}
+
+.clean-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.btn {
+    font-size: rem(16px);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.main-btn {
+    font-weight: bold;
+    color: $clr3;
+    background-color: $clr1;
+    border: solid 1px transparent;
+    padding: rem(15px) rem(32px);
+
+    &:hover {
+        background-color: #e9e9e9;
+        border-color: $clr1;
+        color: $clr1;
+    }
+
+    @include for-mobile-layout {
+        padding: rem(10px) rem(20px);
+        font-size: rem(14px);
+	}
+}
+
+.light-btn {
+    color: $clr5;
+    border: solid 1px $clr5;
+    background-color: inherit;
+    padding: rem(12px) rem(30px);
+
+    &:hover {
+        color: $clr5;
+        border-color: $clr5;
+        background-color: $clr1;
+    }
+
+    @include for-mobile-layout {
+        padding: rem(9px) rem(20px);
+        font-size: rem(14px);
+	}
+}
+
+.bottom-line {
+    height: rem(2px);
+    width: rem(48px);
+    background: $clr1;
+    display: block;
+    margin: 0 auto rem(40px) auto;
+}
+
+// .animation-slide-left {
+//     animation: slideInLeft 0.75s ease both;
+// }
+
+// Aspect ratios
+
+.ratio-16-9 { @include aspect-ratio(100, 56); }
+
+.ratio-square { @include aspect-ratio(100, 100); }
+
+.ratio-card { @include aspect-ratio(100, 80); }
+
+.ratio-poster { @include aspect-ratio(100, 150); }

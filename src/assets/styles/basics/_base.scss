@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.6;
+    font-family: Dosis, sans-serif;
+}
+
+body {
+    margin: 0;
+    color: $clr3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 .3rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: rem(40px);
+}
+
+p {
+    // max-width: 48ch;
+    margin: 0 0 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@include for-mobile-layout {
+    h1 {
+        font-size: rem(30px);
+    }
+}

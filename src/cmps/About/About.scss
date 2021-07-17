@@ -1,0 +1,25 @@
+@import "../../assets/styles/setup/variables";
+@import "../../assets/styles/setup/functions";
+@import "../../assets/styles/setup/mixins";
+
+.about {
+	padding-block-end: rem(50px);
+	padding-block-start: rem(80px);
+
+	p {
+		font-size: rem(25px);
+		max-width: 50ch;
+		margin: 0 auto rem(70px);
+	}
+
+	@include for-mobile-layout {
+		padding-block-end: rem(35px);
+		padding-block-start: rem(50px);
+
+		p {
+			font-size: rem(18px);
+			max-width: 46ch;
+			margin: 0 auto rem(55px);
+		}
+	}
+}

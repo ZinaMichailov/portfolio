@@ -1,0 +1,64 @@
+@import "../../assets/styles/setup/variables";
+@import "../../assets/styles/setup/functions";
+@import "../../assets/styles/setup/mixins";
+
+.homepage {
+	text-align: center;
+
+	.homepage-header {
+		background-image: url(../../assets/img/homepage.jpg);
+		background-size: cover;
+		color: $clr5;
+		height: 100vh;
+
+		.header-content {
+			padding-top: 12%;
+
+			span {
+				display: inline-block;
+				margin-inline-end: rem(10px);
+				font-size: rem(45px);
+				font-weight: 800;
+				margin-block-end: rem(10px);
+			}
+
+			.typing {
+				display: inline-block !important;
+			}
+
+			p {
+				font-size: rem(20px);
+			}
+		}
+	}
+
+	@include for-normal-layout {
+		.homepage-header {
+			.header-content {
+				span {
+					font-size: rem(35px);
+				}
+
+				p {
+					font-size: rem(17px);
+				}
+			}
+		}
+	}
+
+	@include for-mobile-layout {
+		.homepage-header {
+			.header-content {
+				padding-top: 25%;
+
+				span {
+					font-size: rem(26px);
+				}
+
+				p {
+					font-size: rem(14px);
+				}
+			}
+		}
+	}
+}

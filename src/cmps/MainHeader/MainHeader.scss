@@ -1,0 +1,74 @@
+@import "../../assets/styles/setup/variables";
+@import "../../assets/styles/setup/functions";
+@import "../../assets/styles/setup/mixins";
+
+.main-header {
+	padding-top: rem(30px);
+
+	nav {
+		li {
+			cursor: pointer;
+			padding: rem(15px) rem(20px);
+		}
+
+		a {
+			padding-bottom: rem(5px);
+			transition: border-color 0.5s;
+			border-bottom: 3px solid transparent;
+			font-size: rem(18px);
+
+			&:hover {
+				border-color: $clr2;
+			}
+		}
+	}
+
+	.is-active {
+		border-color: $clr1;
+	}
+
+	@include for-mobile-layout {
+		padding-top: rem(15px);
+
+		nav {
+			li {
+				padding: rem(10px) rem(13px);
+			}
+
+			a {
+				font-size: rem(14px);
+			}
+		}
+	}
+}
+
+.fixed-header {
+	padding: rem(3px) 0;
+	background-color: $clr4;
+	color: $clr5;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	border-bottom: 3px solid $clr2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s; 
+
+	nav {
+		li {
+			padding: rem(10px) rem(20px);
+		}
+	}
+
+	@include for-mobile-layout {
+		nav {
+			li {
+				padding: rem(10px) rem(13px);
+			}
+		}
+	}
+}
