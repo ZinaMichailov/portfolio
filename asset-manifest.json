@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.19994109.chunk.css",
+    "main.js": "/portfolio/static/js/main.ff8fdce1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ff8fdce1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f9123b14.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f9123b14.js.map",
+    "static/css/2.0e9d9613.chunk.css": "/portfolio/static/css/2.0e9d9613.chunk.css",
+    "static/js/2.1ad43181.chunk.js": "/portfolio/static/js/2.1ad43181.chunk.js",
+    "static/js/2.1ad43181.chunk.js.map": "/portfolio/static/js/2.1ad43181.chunk.js.map",
+    "static/js/3.cf6d1ad9.chunk.js": "/portfolio/static/js/3.cf6d1ad9.chunk.js",
+    "static/js/3.cf6d1ad9.chunk.js.map": "/portfolio/static/js/3.cf6d1ad9.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.0e9d9613.chunk.css.map": "/portfolio/static/css/2.0e9d9613.chunk.css.map",
+    "static/css/main.19994109.chunk.css.map": "/portfolio/static/css/main.19994109.chunk.css.map",
+    "static/js/2.1ad43181.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1ad43181.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/portfolio/static/media/Dosis-Regular.07393e45.ttf",
+    "static/media/Zina Michailov CV .231d01e4.docx": "/portfolio/static/media/Zina Michailov CV .231d01e4.docx",
+    "static/media/github.0099e2e0.svg": "/portfolio/static/media/github.0099e2e0.svg",
+    "static/media/HomePage.scss": "/portfolio/static/media/homepage.1b88a3dd.jpg",
+    "static/media/linkedin.2905a74b.svg": "/portfolio/static/media/linkedin.2905a74b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9123b14.js",
+    "static/css/2.0e9d9613.chunk.css",
+    "static/js/2.1ad43181.chunk.js",
+    "static/css/main.19994109.chunk.css",
+    "static/js/main.ff8fdce1.chunk.js"
+  ]
+}
