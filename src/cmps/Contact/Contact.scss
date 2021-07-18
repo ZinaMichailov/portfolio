@@ -1,5 +1,6 @@
 @import "../../assets/styles/setup/variables";
 @import "../../assets/styles/setup/functions";
+@import "../../assets/styles/setup/mixins";
 
 .contact {
     background-color: #252934;
@@ -29,5 +30,9 @@
             width: rem(150px);
             margin: rem(20px) auto rem(50px);
         }
+    }
+
+    @include for-mobile-layout {
+        min-height: 100vh;
     }
 }

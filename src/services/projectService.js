@@ -39,9 +39,9 @@ function getProjects() {
         },
         {
             id: 'p102',
-            title: ' - Based Airbnb Clone',
+            title: 'Everywhere - Based Airbnb Clone',
             subtitle: 'Live anywhere in the easiest way',
-            desc: ' was built in React, utilizing the powerful Redux library for state management as well as a Node.js backend, complete with sockets to support real-time push updates.',
+            desc: 'Everywhere was built in React, utilizing the powerful Redux library for state management as well as a Node.js backend, complete with sockets to support real-time push updates.',
             imgUrl: [
                 'https://res.cloudinary.com/zinamichailov/image/upload/v1626094810/portfolio/airbnbMain_pkgml4.jpg', 
                 'https://res.cloudinary.com/zinamichailov/image/upload/v1626096633/portfolio/airbnbHomepage_exq7ut.jpg', 
@@ -49,7 +49,7 @@ function getProjects() {
                 'https://res.cloudinary.com/zinamichailov/image/upload/v1626096625/portfolio/airbnbStay_wodjcg.jpg'
             ],
             github: ['https://github.com/Giladpl/WhatsDone', 'https://github.com/ZinaMichailov/backend-airbnb-proj'],
-            url: '',
+            url: 'https://everywhere-airbnb.herokuapp.com/',
             tools: 'React / Redux / Node.js / MongoDB / Sass'
         },
         {

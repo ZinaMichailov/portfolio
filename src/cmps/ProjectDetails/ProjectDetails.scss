@@ -90,6 +90,9 @@
 		right: 0;
 		transform: none;
 		width: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: stretch;
 
 		.img-container {
 			> * {
@@ -99,8 +102,8 @@
 		}
 
 		.close-btn {
-			right: 5px;
-			top: 5px;
+			right: 6px;
+			top: 6px;
 		}
 	}
 }
