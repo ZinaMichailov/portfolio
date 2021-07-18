@@ -57,8 +57,13 @@ function getProjects() {
             title: 'BitCoin App',
             subtitle: 'A simple virtual wallet, searching through contacts and transfering money to contacts',
             desc: 'BitCoin was built in Angular, utilizing typescript, RxJS as well as a Node.js backend.',
-            imgUrl: ['https://res.cloudinary.com/zinamichailov/image/upload/v1626095023/portfolio/bitcoinMain_ufc4ny.jpg'],
-            github: [''],
+            imgUrl: [
+                'https://res.cloudinary.com/zinamichailov/image/upload/v1626613980/portfolio/bitcoinMain_vbdefo.png',
+                'https://res.cloudinary.com/zinamichailov/image/upload/v1626613381/portfolio/bitcoinHomepage_rch1po.jpg',
+                'https://res.cloudinary.com/zinamichailov/image/upload/v1626613387/portfolio/bitcoinList_oliscd.jpg',
+                'https://res.cloudinary.com/zinamichailov/image/upload/v1626613392/portfolio/bitcoinDetails_hsd2gz.jpg'
+            ],
+            github: ['https://github.com/ZinaMichailov/bitcoin-angular', 'https://github.com/ZinaMichailov/bitcoin-angular-backend'],
             url: '',
             tools: 'Angular / Node.js / MongoDB / Sass'
         },
