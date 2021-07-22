@@ -48,7 +48,7 @@ function getProjects() {
                 'https://res.cloudinary.com/zinamichailov/image/upload/v1626096627/portfolio/airbnbStays_qvbwno.jpg',
                 'https://res.cloudinary.com/zinamichailov/image/upload/v1626096625/portfolio/airbnbStay_wodjcg.jpg'
             ],
-            github: ['https://github.com/Giladpl/WhatsDone', 'https://github.com/ZinaMichailov/backend-airbnb-proj'],
+            github: ['https://github.com/Giladpl/airbnb-mock-proj', 'https://github.com/ZinaMichailov/backend-airbnb-proj'],
             url: 'https://everywhere-airbnb.herokuapp.com/',
             tools: 'React / Redux / Node.js / MongoDB / Sass'
         },
